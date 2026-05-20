@@ -1,0 +1,3 @@
+Ejercicio 22 - BC5
+Crear una aplicación que muestre un diálogo de selección de opciones al pulsar un botón y muestre la opción seleccionada en la consola.
+Al ejecutar la aplicación se abre una ventana de 280x100 píxeles con el título "Ejercicio 22 - Diálogo de selección de opciones". Contiene un botón "Seleccionar opción" que al pulsarse lanza un ChoiceDialog con cuatro opciones (A, B, C y D), siendo "Opción A" la seleccionada por defecto. El diálogo se gestiona con showAndWait(), que devuelve un Optional<String>: si el usuario elige una opción y confirma, se imprime por consola; si cierra el diálogo sin seleccionar, se imprime un mensaje indicándolo. El layout está construido con un VBox con 10 píxeles de espaciado y 20 de padding.
